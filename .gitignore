@@ -16,8 +16,8 @@ whisper_env/
 # ==============================
 # Node.js
 # ==============================
-node_modules/
-npm-debug.log*
+node_gateway/node_modules/
+package-lock.jsong*
 yarn-debug.log*
 yarn-error.log*
 
@@ -56,3 +56,10 @@ Thumbs.db
 # VS Code
 # ==============================
 .vscode/
+data/
+logs/
+scripts/__pycache__/
+scripts/cache/
+scripts/logs/
+scripts/whisper_env/
+scripts/model_output/

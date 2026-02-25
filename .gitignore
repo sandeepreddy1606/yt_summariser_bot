@@ -1,8 +1,41 @@
-node_modules/
+# OpenClaw configuration & secrets
 .env
+.env.*
+!.env.example
+openclaw.json
+.openclaw/
+auth-profiles.json
+models.json
+
+# Node.js Dependencies
+node_modules/
 package-lock.json
-data/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build & Runtime Outputs
+dist/
+build/
+coverage/
+*.log
 gateway.log
 models.txt
-help.txt
+
+# Editor / IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Any temporary files
+temp/
+tmp/
+
+# Untracked project extras
+data/
 scripts/
+help.txt
+

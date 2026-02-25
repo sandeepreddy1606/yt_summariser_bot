@@ -17,7 +17,8 @@ whisper_env/
 # Node.js
 # ==============================
 node_gateway/node_modules/
-package-lock.jsong*
+package-lock.json
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
@@ -45,6 +46,7 @@ transcription.txt
 *.ckpt
 *.pt
 *.bin
+models.txt
 
 # ==============================
 # OS Files
@@ -56,6 +58,10 @@ Thumbs.db
 # VS Code
 # ==============================
 .vscode/
+
+# ==============================
+# Project specific Data & Scripts
+# ==============================
 data/
 logs/
 scripts/__pycache__/
@@ -63,3 +69,12 @@ scripts/cache/
 scripts/logs/
 scripts/whisper_env/
 scripts/model_output/
+help.txt
+
+# ==============================
+# OpenClaw specifics
+# ==============================
+.openclaw/
+openclaw.json
+auth-profiles.json
+models.json
